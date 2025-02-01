@@ -11,7 +11,7 @@ class CartPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.transparent,
-        elevation: 0
+        elevation: 0,
       ),
       body: Consumer<CartModel>(
         builder: (context, value, child) {
